@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/New"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:text="New Game" />
+
+    <Button
+        android:id="@+id/Resume"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:text="Resume Game" />
+
+    <Button
+        android:id="@+id/Records"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:text="View Records" />
+
+    <Button
+        android:id="@+id/Quit"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:text="Quit" />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:text="Test" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<RadioGroup
+	    android:id="@+id/option_group"
+	  android:layout_width="fill_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/novice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:focusable="false"
+            android:text="Novice" >
+        </RadioButton>
+
+        <RadioButton
+         android:id="@+id/medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:focusable="false"
+            android:text="Medium" />
+
+        <RadioButton
+            android:id="@+id/expert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:focusable="false"
+            android:text="Expert" />
+    </RadioGroup>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	    <Button
+	        android:id="@+id/start"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.01"
+	        android:text="Start" />
+
+	    <Button
+	        android:id="@+id/clear"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.01"
+	        android:text="Clear" />
+
+	</LinearLayout>
+
+</LinearLayout>
